@@ -1,0 +1,300 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.header {
+    .header-nav {
+        background-color: #3490dc;
+        .navbar {
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        color: #e8e8e8;
+                    }
+                    .nav-link:hover {
+                        background-color: #00a2d4;
+                    }
+                }
+            }
+            .form-inline {
+                .form-control {
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+.home-page {
+    .top_row {
+        .slider {
+            .carousel-indicators {
+                width: 15%;
+                left: 85%;
+                li {
+                    width: 20px;
+                    background-color: #3490dc;
+                }
+            }
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        width: 70%;
+                        height: 354px;
+                    }
+                    .carousel-caption {
+                        width: 30%;
+                        left: 70%;
+                        top: 0;
+                        text-align: left;
+                        color: #555555;
+                        p {
+                            text-indent: 2em;
+                        }
+                    }
+                    span {
+                        position: absolute;
+                        bottom: 0;
+                        left: 72%;
+                        border-left: 3px solid #3490dc;
+                    }
+                }
+            }
+        }
+        .headline {
+            .card {
+                border-radius: 0;
+                .card-header {
+                    border-left: 3px solid #3490dc;
+                    border-radius: 0;
+                    font-size: 1.1em;
+                    color: #555555;
+                }
+                .list-group {
+                    .list-group-item {
+                        border-radius: 0;
+                        .title {
+                            width: 100%;
+                            color: #555555;
+                            font-size: 0.9em;
+                            line-height: 1.4em;
+                        }
+                        .cate {
+                            font-size: 0.6em;
+                            border-left: 2px solid #3490dc;
+                            line-height: 1.4em;
+                        }
+                        .date {
+                            font-size: 0.6em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .recommend {
+        .col-3 {
+            .card {
+                border-radius: 0;
+                margin: 4px;
+                .card-img-top {
+                    border-radius: 0;
+                    height: 160px;
+                }
+                .card-body {
+                    color: #555555;
+                    .card-text {
+                        text-indent: 2em;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 5;
+                        -webkit-box-orient: vertical;
+                    }
+                    p {
+                        margin-bottom: 8px;
+                        .cate {
+                            border-left: 2px solid #3490dc;
+                            line-height: 1.2em;
+                        }
+                        .publish {
+                            font-size: 0.8em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .list {
+        .col-9 {
+            .media {
+                img {
+                    width: 25%;
+                    max-height: 130px;
+                }
+                .media-body {
+                    p {
+                        color: #555555;
+                    }
+                    .cate {
+                        border-left: 2px solid #3490dc;
+                    }
+                    .info {
+                        margin-left: 40%;
+                        font-size: 0.8em;
+                        color: #888888;
+                    }
+                    .view {
+                        font-size: 0.8em;
+                        color: #888888;
+                    }
+                    .more {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        .col-3 {
+            .card {
+                border-radius: 0;
+                .card-header {
+                    border-left: 3px solid #3490dc;
+                    border-radius: 0;
+                    font-size: 1.2em;
+                }
+                .list-group {
+                    .list-group-item {
+                        a {
+                            width: 100%;
+                            color: #555555;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cates-show-page,
+.tags-show-page,
+.articles-index-page {
+    .cate_title {
+        border-bottom: 3px solid #3490dc;
+        margin: 0 -11px;
+        .media {
+            img {
+                width: 64px;
+            }
+        }
+    }
+    .lists {
+        .col-9 {
+            .media {
+                img {
+                    width: 25%;
+                    max-height: 130px;
+                }
+                .media-body {
+                    p {
+                        color: #555555;
+                    }
+                    .cate {
+                        border-left: 2px solid #3490dc;
+                    }
+                    .info {
+                        margin-left: 40%;
+                        font-size: 0.8em;
+                        color: #888888;
+                    }
+                    .view {
+                        font-size: 0.8em;
+                        color: #888888;
+                    }
+                    .more {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        .col-3 {
+            .card {
+                border-radius: 0;
+                .card-header {
+                    border-left: 3px solid #3490dc;
+                    border-radius: 0;
+                    font-size: 1.2em;
+                }
+                .list-group {
+                    .list-group-item {
+                        a {
+                            width: 100%;
+                            color: #555555;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.articles-show-page {
+    .breadcrumb {
+        margin: 0 -11px;
+        border-radius: 0;
+    }
+    .row {
+        .col-9 {
+            .jumbotron {
+                h1 {
+                    font-size: 1.6rem;
+                }
+                .lead {
+                    font-size: 0.9rem;
+                    text-indent: 2em;
+                    font-weight: 500;
+                    background-color: #e9ecef;
+                }
+            }
+        }
+        .col-3 {
+            .card {
+                border-radius: 0;
+                .card-header {
+                    border-left: 3px solid #3490dc;
+                    border-radius: 0;
+                    font-size: 1.2em;
+                }
+                .list-group {
+                    .list-group-item {
+                        a {
+                            width: 100%;
+                            color: #555555;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-page {
+    .about {
+        min-height: 775px
+    }
+}
+.footer {
+    width: 100%;
+    background-color: #3490dc;
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        p {
+            color: #c1c1c1;
+            a {
+                color: inherit;
+            }
+        }
+    }
+}
